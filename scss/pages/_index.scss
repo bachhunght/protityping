@@ -1,0 +1,45 @@
+// INDEX
+// Please define all styles for the index page in this file.
+// For each new page template added to /templates/pages/*.twig,
+// please add a corresponding file in /assets/scss/pages/*.scss.
+
+.welcome-paragraph {
+  padding: rem(40px 0);
+}
+// style box-slick-carousel
+.box-slick-carousel {
+
+  &__item {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    opacity: 1 !important;
+    // width: 350px;
+
+    img {
+    bottom: 0;
+    max-width: inherit;
+    position: absolute;
+    // right: 0;
+    top: 0;
+    width: auto;
+    filter: grayscale(80%);
+    }
+  }
+}
+.slick-slide.slick-current.slick-active {
+  width: 750px;
+  img {
+    filter: grayscale(0);
+  }
+}
+.slick-current + .slick-active  {
+  width: 264px;
+}
+
+.slick-current + .slick-active  +  .slick-active {
+  width: 130px;
+}
+.slick-current + .slick-active + .slick-active + .slick-active {
+  width: 78px;
+}
