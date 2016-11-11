@@ -10,7 +10,7 @@
 
 //Enable font-smoothing
 html {
-  @include helvetica;
+  font-family: 'BlueSkyStandard';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: $text-color;

@@ -46,4 +46,38 @@
   &--teal {
     background-color: $teal;
   }
+
+  &--blue {
+    background-color: $blue;
+  }
+
+  &--blue1 {
+    background-color: $blue1;
+  }
+
+  &--blue-gradient {
+    background: linear-gradient(#004b64, #08bbc8);
+  }
+}
+
+.cl {
+  &-blue{
+    color: $blue;
+  }
+
+  &-blue1 {
+    color: $blue1;
+  }
+
+  &-white {
+    color: $white;
+  }
+
+  &-gray {
+    color: $gray;
+  }
+
+  &--gray-dark {
+    color: $dark-gray;
+  }
 }

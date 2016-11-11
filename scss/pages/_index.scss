@@ -27,17 +27,19 @@
     }
   }
 }
+
 .slick-slide.slick-current.slick-active {
   width: 750px;
   img {
     filter: grayscale(0);
   }
 }
-.slick-current + .slick-active  {
+
+.slick-current + .slick-active {
   width: 264px;
 }
 
-.slick-current + .slick-active  +  .slick-active {
+.slick-current + .slick-active + .slick-active {
   width: 130px;
 }
 .slick-current + .slick-active + .slick-active + .slick-active {

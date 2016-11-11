@@ -21,11 +21,7 @@
     }
   ],
   "list_components":[
-{
-    "name":"slick-carousel",
-    "group":"component",
-    "hidecode":true
-    },
+
      {
       "id":"ST-01",
       "name":"headings",
@@ -56,7 +52,11 @@
       "id":"ST-09",
       "name":"button",
       "group":"helper"
+    },
+    {
+      "name":"slick-carousel",
+      "group":"component",
+      "hidecode":true
     }
-
   ]
 }
